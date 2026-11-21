@@ -1,0 +1,5 @@
+# Google AdSense authorised sellers file.
+# After AdSense approves your site, replace the line below with your own publisher id
+# (AdSense → Account → Settings → Account information → Publisher ID), keeping the rest unchanged:
+#
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

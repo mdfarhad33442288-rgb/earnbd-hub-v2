@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!-- Tags marked data-rh="true" are replaced per-page by react-helmet-async (see components/ui/Seo.jsx).
+         They remain as sensible defaults for crawlers that do not execute JavaScript. -->
+    <title>EarnBD Hub – AI Tools, Online Income, Freelancing, Jobs &amp; Education</title>
+    <meta data-rh="true" name="description" content="EarnBD Hub publishes practical, beginner-friendly guides on AI tools, online income, freelancing, job circulars and education for learners and earners in Bangladesh." />
+    <meta data-rh="true" name="robots" content="index,follow,max-image-preview:large" />
+    <meta data-rh="true" property="og:type" content="website" />
+    <meta data-rh="true" property="og:site_name" content="EarnBD Hub" />
+    <meta data-rh="true" property="og:title" content="EarnBD Hub – AI Tools, Online Income, Freelancing, Jobs &amp; Education" />
+    <meta data-rh="true" property="og:description" content="Practical, beginner-friendly guides on AI tools, online income, freelancing, job circulars and education." />
+    <meta data-rh="true" property="og:image" content="/og-default.png" />
+    <meta data-rh="true" name="twitter:card" content="summary_large_image" />
+
+    <meta name="theme-color" content="#2563eb" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- Apply the saved / preferred theme before first paint (prevents a dark-mode flash) -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('theme');
+          var dark = t ? t === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (dark) {
+            document.documentElement.classList.add('dark');
+            document.documentElement.style.colorScheme = 'dark';
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- Non-blocking Google Fonts (Latin + Bengali) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" />
+    </noscript>
+
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <p style="font-family:system-ui,sans-serif;padding:2rem;text-align:center">
+        EarnBD Hub needs JavaScript to run. Please enable JavaScript in your browser.
+      </p>
+    </noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
